@@ -1,9 +1,11 @@
 .container{
     width: 700px;
-    border: solid, 1px, black;
+    border: none;
     margin: auto;
     margin-top: 150px;
     padding: 20px;
+    background-color:rgb(100, 237, 173);
+    border-radius: 10px;
 }
 
 .inserir-tarefa{
@@ -15,10 +17,29 @@
 .inserir-tarefa input {
     flex: 4;
     height: 40px;
+    border: none;
+    border-radius: 10px;
 }
 
 .inserir-tarefa button {
     flex: 1;
     height: 44px;
     font-size: 22px;
+    background-color:rgb(100, 165, 57);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: red;
+    font-family: Arial, sans-serif, white; ;
+    border: none;
+    border-radius: 10px;
+}
+
+.edit {
+    background-color: green;
+    border: none;
+    border-radius: 10px
 }
