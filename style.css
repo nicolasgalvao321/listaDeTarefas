@@ -43,3 +43,9 @@
     border: none;
     border-radius: 10px;
 }
+
+.tarefa {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
