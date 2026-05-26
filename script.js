@@ -27,4 +27,17 @@ display.addEventListener("click", function(event){
     if(event.target.classList.contains('delete')){
         event.target.parentElement.parentElement.remove()
     }
+
+    if(event.target.classList.contains("edit")){
+        let novaTarefa = prompt("Edite a sua tarefa")
+
+        display.innerHTML =
+        `<div class="tarefa">
+            ${novaTarefa}
+            <div>
+               <button class="delete">Deletar</button>
+               <button class="edit">Editar</button>
+        </div>
+    </div>`
+    }
 })
